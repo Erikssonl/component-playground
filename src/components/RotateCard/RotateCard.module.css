@@ -7,6 +7,7 @@
     /* border: 1px solid black; */
     background: none;
     perspective: 300px;
+    filter: drop-shadow(50px 50px 70px rgba(0, 0, 0, 0.30));
 }
 
 .cardSideFront,
@@ -25,13 +26,13 @@
 
 .cardSideFront {
     background-image: linear-gradient(145deg, rgba(49, 26, 50, 0.64) 28.16%, rgba(139, 61, 157, 0.56) 48.7%, rgba(196, 167, 211, 0.72) 62.61%, #F8E4C3 82.22%);
-    filter: drop-shadow(50px 50px 90px rgba(0, 0, 0, 0.30));
+    /* filter: drop-shadow(50px 50px 70px rgba(0, 0, 0, 0.30)); */
 }
 
 .cardSideBack{
     background-image: linear-gradient(145deg, rgba(49, 26, 50, 0.64) 28.16%, rgba(139, 61, 157, 0.56) 48.7%, rgba(196, 167, 211, 0.72) 62.61%, #F8E4C3 82.22%);
     /* background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); */
-    filter: drop-shadow(50px 50px 90px rgba(0, 0, 0, 0.30));
+    /* filter: drop-shadow(50px 50px 70px rgba(0, 0, 0, 0.30)); */
     transform: rotateY(-180deg);
     display: flex;
     align-items: center; 
