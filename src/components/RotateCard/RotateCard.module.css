@@ -25,13 +25,12 @@
 }
 
 .cardSideFront {
-    background-image: linear-gradient(145deg, rgba(49, 26, 50, 0.64) 28.16%, rgba(139, 61, 157, 0.56) 48.7%, rgba(196, 167, 211, 0.72) 62.61%, #F8E4C3 82.22%);
+    background-image: linear-gradient(145deg, rgba(248, 228, 195, 0.80) 16.75%, rgba(34, 23, 34, 0.77) 29.59%, rgba(6, 5, 1, 0.75) 48.13%);
     /* filter: drop-shadow(50px 50px 70px rgba(0, 0, 0, 0.30)); */
 }
 
 .cardSideBack{
-    background-image: linear-gradient(145deg, rgba(49, 26, 50, 0.64) 28.16%, rgba(139, 61, 157, 0.56) 48.7%, rgba(196, 167, 211, 0.72) 62.61%, #F8E4C3 82.22%);
-    /* background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%); */
+    background-image: linear-gradient(145deg, rgba(248, 228, 195, 0.80) 16.75%, rgba(34, 23, 34, 0.77) 29.59%, rgba(6, 5, 1, 0.75) 48.13%);
     /* filter: drop-shadow(50px 50px 70px rgba(0, 0, 0, 0.30)); */
     transform: rotateY(-180deg);
     display: flex;
@@ -41,7 +40,7 @@
 
 .cardSideBack a {
     text-decoration: none;
-    color: black;
+    color: #F8E4C3;
 }
 
 .card:hover .cardSideBack{
